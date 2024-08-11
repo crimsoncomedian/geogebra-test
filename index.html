@@ -11,7 +11,7 @@
     <script>
         var ggbApp = new GGBApplet({
             "appName": "classic",
-            "filename": "geogebra.xml",
+            "filename": "geogebra.xml", // Points to the extracted XML file
             "showToolBar": true,
             "showMenuBar": true,
             "showAlgebraInput": true,
@@ -21,6 +21,8 @@
             "enableShiftDragZoom": true,
             "useBrowserForJS": false
         }, true);
+
+        // Inject the applet into the div element on page load
         window.addEventListener("load", function() {
             ggbApp.inject('ggb-element');
         });
