@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGebra Test</title>
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</head>
+<body>
+    <div id="ggb-element" style="width: 800px; height: 600px;"></div>
+    <script>
+        var ggbApp = new GGBApplet({
+            "appName": "classic",
+            "material_id": "", // Leave empty as we're using local files
+            "ggbBase64": "", // Not needed since we're using extracted files
+            "filename": "geogebra.xml", // Point to the extracted XML file
+            "showToolBar": true,
+            "showMenuBar": true,
+            "showAlgebraInput": true,
+            "allowStyleBar": true,
+            "enableLabelDrags": true,
+            "enableUndoRedo": true,
+            "enableShiftDragZoom": true,
+            "useBrowserForJS": false
+        }, true);
+        window.addEventListener("load", function() {
+            ggbApp.inject('ggb-element');
+        });
+    </script>
+</body>
+</html>
