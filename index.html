@@ -7,13 +7,11 @@
     <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 </head>
 <body>
-    <div id="ggb-element" style="width: 800px; height: 600px;"></div>
+    <div id="ggb-element" style="width: 100%; height: 100vh;"></div>
     <script>
         var ggbApp = new GGBApplet({
             "appName": "classic",
-            "material_id": "", // Leave empty as we're using local files
-            "ggbBase64": "", // Not needed since we're using extracted files
-            "filename": "geogebra.xml", // Point to the extracted XML file
+            "filename": "geogebra.xml",
             "showToolBar": true,
             "showMenuBar": true,
             "showAlgebraInput": true,
