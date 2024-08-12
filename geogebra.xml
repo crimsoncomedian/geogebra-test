@@ -52,7 +52,7 @@
 <scripting blocked="false" disabled="false"/>
 <construction title="MSM 7 2.3.1" author="" date="">
 <element type="image" label="pic1">
-	<file name="97b007cbad66092fcc113e1d7e396a36/2000px-Blue_Merge_arrow.svg.png"/>
+	<file name="2000px-Blue_Merge_arrow.svg.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" x="-10" y="15" z="1"/>
 	<startPoint number="1" x="-10" y="0" z="1"/>
@@ -64,7 +64,7 @@
 	<ggbscript val="SetValue(up, up + 1)"/>
 </element>
 <element type="image" label="pic2">
-	<file name="0c728aefcdb0522514250268f73ac994/1280px-Red_merge_arrow.svg.png"/>
+	<file name="1280px-Red_merge_arrow.svg.png"/>
 	<inBackground val="false"/>
 	<startPoint number="0" x="-10" y="0" z="1"/>
 	<startPoint number="1" x="-10" y="-15" z="1"/>
@@ -86,6 +86,16 @@
 	<font serif="false" sizeM="2" size="16" style="1"/>
 	<startPoint x="6.009147152240123" y="-0.5057778089986309" z="1"/>
 </element>
+<element type="numeric" label="up">
+	<value val="0"/>
+	<symbolic val="true" />
+	<show object="false" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelMode val="2"/>
+	<Here is the continuation of the updated `geogebra.xml` file with the correct image paths:
+
+```xml
 <element type="numeric" label="up">
 	<value val="0"/>
 	<symbolic val="true" />
